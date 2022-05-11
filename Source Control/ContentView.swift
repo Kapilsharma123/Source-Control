@@ -13,7 +13,7 @@ struct ContentView: View {
                     VStack
                     {
                         Rectangle().fill(Color.red).ignoresSafeArea()
-                        
+                        Rectangle().fill(Color.black).ignoresSafeArea()
                     }
                     
                 }
