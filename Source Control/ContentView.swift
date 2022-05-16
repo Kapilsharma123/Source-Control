@@ -21,7 +21,6 @@ struct ContentView: View {
                         Rectangle().fill(Color.white).ignoresSafeArea()
                         Text("abc")
 
-                        
                     }
                     
                 }
