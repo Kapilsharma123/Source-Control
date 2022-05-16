@@ -23,6 +23,10 @@ struct ContentView: View {
                         Text("feature11")
                         Text("feature111")
 
+
+                        Text("feature2")
+                        
+
                     }
                     
                 }
