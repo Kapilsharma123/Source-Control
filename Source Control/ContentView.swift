@@ -15,7 +15,12 @@ struct ContentView: View {
                         Rectangle().fill(Color.red).ignoresSafeArea()
                         Rectangle().fill(Color.black).ignoresSafeArea()
                         Rectangle().fill(Color.yellow).ignoresSafeArea()
+
                         Rectangle().fill(Color.black).ignoresSafeArea()
+
+                        Rectangle().fill(Color.white).ignoresSafeArea()
+                        Text("abc")
+
                         
                     }
                     
