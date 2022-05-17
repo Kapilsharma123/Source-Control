@@ -17,9 +17,9 @@ struct ContentView: View {
                         Rectangle().fill(Color.yellow).ignoresSafeArea()
 
                         Rectangle().fill(Color.black).ignoresSafeArea()
-Text("Here DIG 1000 changes are initiated")
+Text("Here DIG 1001 changes are initiated")
                         Rectangle().fill(Color.gray)
-                        Text("abc")
+                        Text("DIG1001")
 
                     }
                     
