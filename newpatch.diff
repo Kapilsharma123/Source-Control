@@ -1,0 +1,86 @@
+From 8ecc97e637b5ccb980c7ab06d8922f43141f2d2e Mon Sep 17 00:00:00 2001
+From: ABC <ABC@gmail.com>
+Date: Tue, 17 May 2022 10:26:06 +0530
+Subject: [PATCH] main branch cherrypicked with contentview2
+
+---
+ Source Control.xcodeproj/project.pbxproj |  4 ++++
+ Source Control/ContentView2.swift        | 30 ++++++++++++++++++++++++
+ 2 files changed, 34 insertions(+)
+ create mode 100644 Source Control/ContentView2.swift
+
+diff --git a/Source Control.xcodeproj/project.pbxproj b/Source Control.xcodeproj/project.pbxproj
+index 75d8cf8..675eff4 100644
+--- a/Source Control.xcodeproj/project.pbxproj	
++++ b/Source Control.xcodeproj/project.pbxproj	
+@@ -14,6 +14,7 @@
+ 		0A8B0999282BC73B0071CE92 /* Source_ControlTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A8B0998282BC73B0071CE92 /* Source_ControlTests.swift */; };
+ 		0A8B09A3282BC73B0071CE92 /* Source_ControlUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A8B09A2282BC73B0071CE92 /* Source_ControlUITests.swift */; };
+ 		0A8B09A5282BC73B0071CE92 /* Source_ControlUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A8B09A4282BC73B0071CE92 /* Source_ControlUITestsLaunchTests.swift */; };
++		0AC623F828335FF900CC70FD /* ContentView2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AC623F728335FF900CC70FD /* ContentView2.swift */; };
+ /* End PBXBuildFile section */
+ 
+ /* Begin PBXContainerItemProxy section */
+@@ -44,6 +45,7 @@
+ 		0A8B099E282BC73B0071CE92 /* Source ControlUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Source ControlUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+ 		0A8B09A2282BC73B0071CE92 /* Source_ControlUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Source_ControlUITests.swift; sourceTree = "<group>"; };
+ 		0A8B09A4282BC73B0071CE92 /* Source_ControlUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Source_ControlUITestsLaunchTests.swift; sourceTree = "<group>"; };
++		0AC623F728335FF900CC70FD /* ContentView2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView2.swift; sourceTree = "<group>"; };
+ /* End PBXFileReference section */
+ 
+ /* Begin PBXFrameworksBuildPhase section */
+@@ -96,6 +98,7 @@
+ 			children = (
+ 				0A8B0987282BC7390071CE92 /* Source_ControlApp.swift */,
+ 				0A8B0989282BC7390071CE92 /* ContentView.swift */,
++				0AC623F728335FF900CC70FD /* ContentView2.swift */,
+ 				0A8B098B282BC73B0071CE92 /* Assets.xcassets */,
+ 				0A8B098D282BC73B0071CE92 /* Preview Content */,
+ 			);
+@@ -257,6 +260,7 @@
+ 			isa = PBXSourcesBuildPhase;
+ 			buildActionMask = 2147483647;
+ 			files = (
++				0AC623F828335FF900CC70FD /* ContentView2.swift in Sources */,
+ 				0A8B098A282BC7390071CE92 /* ContentView.swift in Sources */,
+ 				0A8B0988282BC7390071CE92 /* Source_ControlApp.swift in Sources */,
+ 			);
+diff --git a/Source Control/ContentView2.swift b/Source Control/ContentView2.swift
+new file mode 100644
+index 0000000..5a32b52
+--- /dev/null
++++ b/Source Control/ContentView2.swift	
+@@ -0,0 +1,30 @@
++//
++//  ContentView2.swift
++//  Source Control
++//
++//  Created by Htcuser on 17/05/22.
++//
++
++import Foundation
++import SwiftUI
++
++struct ContentView2: View {
++    var body: some View {
++        NavigationView{
++                    VStack
++                    {
++                        Rectangle().fill(Color.brown).ignoresSafeArea()
++                        Rectangle().fill(Color.gray).ignoresSafeArea()
++                        
++                    }
++                    
++                }
++       
++    }
++}
++
++struct ContentView2_Previews: PreviewProvider {
++    static var previews: some View {
++        ContentView2()
++    }
++}
+-- 
+2.31.0
+

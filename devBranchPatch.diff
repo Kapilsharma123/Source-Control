@@ -1,0 +1,25 @@
+From a9077a09790509714662758b94887a17fb3c40d0 Mon Sep 17 00:00:00 2001
+From: ABC <ABC@gmail.com>
+Date: Tue, 17 May 2022 10:22:39 +0530
+Subject: [PATCH] contentview2 gray added
+
+---
+ Source Control/ContentView2.swift | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+diff --git a/Source Control/ContentView2.swift b/Source Control/ContentView2.swift
+index 93e0dab..5a32b52 100644
+--- a/Source Control/ContentView2.swift	
++++ b/Source Control/ContentView2.swift	
+@@ -14,7 +14,7 @@ struct ContentView2: View {
+                     VStack
+                     {
+                         Rectangle().fill(Color.brown).ignoresSafeArea()
+-                       
++                        Rectangle().fill(Color.gray).ignoresSafeArea()
+                         
+                     }
+                     
+-- 
+2.31.0
+
