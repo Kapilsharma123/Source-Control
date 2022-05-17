@@ -15,6 +15,7 @@
 		0A8B09A3282BC73B0071CE92 /* Source_ControlUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A8B09A2282BC73B0071CE92 /* Source_ControlUITests.swift */; };
 		0A8B09A5282BC73B0071CE92 /* Source_ControlUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A8B09A4282BC73B0071CE92 /* Source_ControlUITestsLaunchTests.swift */; };
 		0AC623F828335FF900CC70FD /* ContentView2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AC623F728335FF900CC70FD /* ContentView2.swift */; };
+		0AC623FA283368B900CC70FD /* ContentView3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AC623F9283368B900CC70FD /* ContentView3.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,6 +47,7 @@
 		0A8B09A2282BC73B0071CE92 /* Source_ControlUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Source_ControlUITests.swift; sourceTree = "<group>"; };
 		0A8B09A4282BC73B0071CE92 /* Source_ControlUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Source_ControlUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		0AC623F728335FF900CC70FD /* ContentView2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView2.swift; sourceTree = "<group>"; };
+		0AC623F9283368B900CC70FD /* ContentView3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView3.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +101,7 @@
 				0A8B0987282BC7390071CE92 /* Source_ControlApp.swift */,
 				0A8B0989282BC7390071CE92 /* ContentView.swift */,
 				0AC623F728335FF900CC70FD /* ContentView2.swift */,
+				0AC623F9283368B900CC70FD /* ContentView3.swift */,
 				0A8B098B282BC73B0071CE92 /* Assets.xcassets */,
 				0A8B098D282BC73B0071CE92 /* Preview Content */,
 			);
@@ -262,6 +265,7 @@
 			files = (
 				0AC623F828335FF900CC70FD /* ContentView2.swift in Sources */,
 				0A8B098A282BC7390071CE92 /* ContentView.swift in Sources */,
+				0AC623FA283368B900CC70FD /* ContentView3.swift in Sources */,
 				0A8B0988282BC7390071CE92 /* Source_ControlApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -1,0 +1,116 @@
+From 98263aab329952f7382f3acec31ae2cde68f855c Mon Sep 17 00:00:00 2001
+From: ABC <ABC@gmail.com>
+Date: Tue, 17 May 2022 10:55:52 +0530
+Subject: [PATCH] DIG1000 branch updated
+
+---
+ Source Control.xcodeproj/project.pbxproj |  4 ++++
+ Source Control/ContentView.swift         |  4 ++--
+ Source Control/ContentView2.swift        |  2 +-
+ Source Control/ContentView3.swift        | 30 ++++++++++++++++++++++++
+ 4 files changed, 37 insertions(+), 3 deletions(-)
+ create mode 100644 Source Control/ContentView3.swift
+
+diff --git a/Source Control.xcodeproj/project.pbxproj b/Source Control.xcodeproj/project.pbxproj
+index 675eff4..14ee3d0 100644
+--- a/Source Control.xcodeproj/project.pbxproj	
++++ b/Source Control.xcodeproj/project.pbxproj	
+@@ -15,6 +15,7 @@
+ 		0A8B09A3282BC73B0071CE92 /* Source_ControlUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A8B09A2282BC73B0071CE92 /* Source_ControlUITests.swift */; };
+ 		0A8B09A5282BC73B0071CE92 /* Source_ControlUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A8B09A4282BC73B0071CE92 /* Source_ControlUITestsLaunchTests.swift */; };
+ 		0AC623F828335FF900CC70FD /* ContentView2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AC623F728335FF900CC70FD /* ContentView2.swift */; };
++		0AC623FA283368B900CC70FD /* ContentView3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AC623F9283368B900CC70FD /* ContentView3.swift */; };
+ /* End PBXBuildFile section */
+ 
+ /* Begin PBXContainerItemProxy section */
+@@ -46,6 +47,7 @@
+ 		0A8B09A2282BC73B0071CE92 /* Source_ControlUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Source_ControlUITests.swift; sourceTree = "<group>"; };
+ 		0A8B09A4282BC73B0071CE92 /* Source_ControlUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Source_ControlUITestsLaunchTests.swift; sourceTree = "<group>"; };
+ 		0AC623F728335FF900CC70FD /* ContentView2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView2.swift; sourceTree = "<group>"; };
++		0AC623F9283368B900CC70FD /* ContentView3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView3.swift; sourceTree = "<group>"; };
+ /* End PBXFileReference section */
+ 
+ /* Begin PBXFrameworksBuildPhase section */
+@@ -99,6 +101,7 @@
+ 				0A8B0987282BC7390071CE92 /* Source_ControlApp.swift */,
+ 				0A8B0989282BC7390071CE92 /* ContentView.swift */,
+ 				0AC623F728335FF900CC70FD /* ContentView2.swift */,
++				0AC623F9283368B900CC70FD /* ContentView3.swift */,
+ 				0A8B098B282BC73B0071CE92 /* Assets.xcassets */,
+ 				0A8B098D282BC73B0071CE92 /* Preview Content */,
+ 			);
+@@ -262,6 +265,7 @@
+ 			files = (
+ 				0AC623F828335FF900CC70FD /* ContentView2.swift in Sources */,
+ 				0A8B098A282BC7390071CE92 /* ContentView.swift in Sources */,
++				0AC623FA283368B900CC70FD /* ContentView3.swift in Sources */,
+ 				0A8B0988282BC7390071CE92 /* Source_ControlApp.swift in Sources */,
+ 			);
+ 			runOnlyForDeploymentPostprocessing = 0;
+diff --git a/Source Control/ContentView.swift b/Source Control/ContentView.swift
+index 7c0d850..84556ec 100644
+--- a/Source Control/ContentView.swift	
++++ b/Source Control/ContentView.swift	
+@@ -17,8 +17,8 @@ struct ContentView: View {
+                         Rectangle().fill(Color.yellow).ignoresSafeArea()
+ 
+                         Rectangle().fill(Color.black).ignoresSafeArea()
+-
+-                        Rectangle().fill(Color.white).ignoresSafeArea()
++Text("Here DIG 1000 changes are initiated")
++                        Rectangle().fill(Color.gray)
+                         Text("abc")
+ 
+                     }
+diff --git a/Source Control/ContentView2.swift b/Source Control/ContentView2.swift
+index 5a32b52..8d29bb2 100644
+--- a/Source Control/ContentView2.swift	
++++ b/Source Control/ContentView2.swift	
+@@ -13,7 +13,7 @@ struct ContentView2: View {
+         NavigationView{
+                     VStack
+                     {
+-                        Rectangle().fill(Color.brown).ignoresSafeArea()
++                        Text("DIG1000 Changes")
+                         Rectangle().fill(Color.gray).ignoresSafeArea()
+                         
+                     }
+diff --git a/Source Control/ContentView3.swift b/Source Control/ContentView3.swift
+new file mode 100644
+index 0000000..4aea136
+--- /dev/null
++++ b/Source Control/ContentView3.swift	
+@@ -0,0 +1,30 @@
++//
++//  ContentView3.swift
++//  Source Control
++//
++//  Created by Htcuser on 17/05/22.
++//
++
++import Foundation
++import Foundation
++import SwiftUI
++
++struct ContentView3: View {
++    var body: some View {
++        NavigationView{
++                    VStack
++                    {
++                        Text("ContentView3 added")
++                        
++                    }
++                    
++                }
++       
++    }
++}
++
++struct ContentView3_Previews: PreviewProvider {
++    static var previews: some View {
++        ContentView3()
++    }
++}
+-- 
+2.31.0
+
