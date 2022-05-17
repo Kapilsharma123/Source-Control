@@ -14,7 +14,7 @@ struct ContentView2: View {
                     VStack
                     {
                         Rectangle().fill(Color.brown).ignoresSafeArea()
-                       
+                        Rectangle().fill(Color.gray).ignoresSafeArea()
                         
                     }
                     
