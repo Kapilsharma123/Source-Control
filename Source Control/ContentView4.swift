@@ -1,21 +1,22 @@
 //
-//  ContentView3.swift
+//  ContentView4.swift
 //  Source Control
 //
 //  Created by Htcuser on 17/05/22.
 //
 
-import Foundation
+
 import Foundation
 import SwiftUI
 
-struct ContentView3: View {
+struct ContentView4: View {
     var body: some View {
         NavigationView{
                     VStack
                     {
-                        Text("ContentView3 added")
-                        Text("I can add more text and views inside it")
+                        Text("DIG1001 changes")
+                        Text("ContentView4 added")
+                        
                     }
                     
                 }
@@ -23,8 +24,9 @@ struct ContentView3: View {
     }
 }
 
-struct ContentView3_Previews: PreviewProvider {
+struct ContentView4_Previews: PreviewProvider {
     static var previews: some View {
-        ContentView3()
+        ContentView4()
     }
 }
+
