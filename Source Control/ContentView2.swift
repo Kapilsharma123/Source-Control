@@ -15,7 +15,7 @@ struct ContentView2: View {
                     {
                         Rectangle().fill(Color.brown).ignoresSafeArea()
                         Rectangle().fill(Color.gray).ignoresSafeArea()
-                        Text("Content2")
+                       
                         
                     }
                     
