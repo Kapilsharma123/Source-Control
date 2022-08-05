@@ -1,21 +1,22 @@
 //
-//  ContentView2.swift
+//  ContentView4.swift
 //  Source Control
 //
 //  Created by Htcuser on 17/05/22.
 //
 
+
 import Foundation
 import SwiftUI
 
-struct ContentView2: View {
+struct ContentView4: View {
     var body: some View {
         NavigationView{
                     VStack
                     {
-                        Rectangle().fill(Color.brown).ignoresSafeArea()
-                        Rectangle().fill(Color.gray).ignoresSafeArea()
-                        Text("Content2")
+                        Text("DIG1001 changes")
+                        Text("ContentView4 added")
+                        Text("Content4")
                         
                     }
                     
@@ -24,8 +25,9 @@ struct ContentView2: View {
     }
 }
 
-struct ContentView2_Previews: PreviewProvider {
+struct ContentView4_Previews: PreviewProvider {
     static var previews: some View {
-        ContentView2()
+        ContentView4()
     }
 }
+

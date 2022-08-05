@@ -15,9 +15,19 @@ struct ContentView: View {
                         Rectangle().fill(Color.red).ignoresSafeArea()
                         Rectangle().fill(Color.black).ignoresSafeArea()
                         Rectangle().fill(Color.yellow).ignoresSafeArea()
+
                         Rectangle().fill(Color.white).ignoresSafeArea()
                         Text("abc")
                         
+
+
+                        Rectangle().fill(Color.black).ignoresSafeArea()
+Text("Here DIG 1001 changes are initiated")
+                        Rectangle().fill(Color.gray)
+                       Text("DIG1003")
+                        Text("Content1")
+
+
                     }
                     
                 }
