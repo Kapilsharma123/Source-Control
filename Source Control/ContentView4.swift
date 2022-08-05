@@ -16,6 +16,7 @@ struct ContentView4: View {
                     {
                         Text("DIG1001 changes")
                         Text("ContentView4 added")
+                        Text("Content4")
                         
                     }
                     

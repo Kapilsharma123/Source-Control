@@ -15,6 +15,7 @@ struct ContentView2: View {
                     {
                         Text("DIG1001 Changes")
                         Rectangle().fill(Color.gray).ignoresSafeArea()
+                        Text("Content2")
                         
                     }
                     

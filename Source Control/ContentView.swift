@@ -20,6 +20,7 @@ struct ContentView: View {
 Text("Here DIG 1001 changes are initiated")
                         Rectangle().fill(Color.gray)
                        Text("DIG1003")
+                        Text("Content1")
 
                     }
                     
