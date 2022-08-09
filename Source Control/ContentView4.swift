@@ -14,8 +14,7 @@ struct ContentView4: View {
         NavigationView{
                     VStack
                     {
-                        Text("DIG1001 changes")
-                        Text("ContentView4 added")
+                        
                         
                     }
                     

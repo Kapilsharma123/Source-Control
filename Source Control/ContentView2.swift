@@ -13,8 +13,7 @@ struct ContentView2: View {
         NavigationView{
                     VStack
                     {
-                        Text("DIG1001 Changes")
-                        Rectangle().fill(Color.gray).ignoresSafeArea()
+                       
                         
                     }
                     
