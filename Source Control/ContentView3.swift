@@ -14,7 +14,11 @@ struct ContentView3: View {
         NavigationView{
                     VStack
                     {
-                        
+
+                        Text("ContentView3 added")
+                        Text("I can add more text and views inside it")
+                        Text("Content3")
+
                     }
                     
                 }
