@@ -20,14 +20,7 @@ struct ContentView: View {
 
                         Rectangle().fill(Color.white).ignoresSafeArea()
 
-                        Text("feature1")
-                        Text("feature11")
-                        Text("feature111")
-
-
-                        Text("feature2")
-                        
-
+                        Text("NewPatch1")
                     }
                     
                 }
