@@ -25,8 +25,11 @@ struct ContentView: View {
                         Text("feature111")
 
 
+
                         Text("feature2")
-                        
+                       Text("DIG1003")
+                       
+                       
 
                     }
                     
