@@ -1,0 +1,12 @@
+diff a/Source Control/ContentView2.swift b/Source Control/ContentView2.swift	(rejected hunks)
+--- a/Source Control/ContentView2.swift	
++++ b/Source Control/ContentView2.swift
+@@ -17,7 +17,7 @@ struct ContentView2: View {
+                         Rectangle().fill(Color.gray).ignoresSafeArea()
+ 
+                         Text("1000002")
+-                        Text("d4")
++                        Text("d6")
+                         
+ 
+                     }
