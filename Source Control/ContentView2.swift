@@ -18,6 +18,7 @@ struct ContentView2: View {
 
                         Text("1000002")
                         Text("d6")
+                        Text("d12")
                         
 
                     }
