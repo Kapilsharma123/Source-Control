@@ -15,8 +15,13 @@ struct ContentView3: View {
                     VStack
                     {
                         Text("ContentView3 added")
+<<<<<<< Updated upstream
                         Text("I can add more text and views inside it")
                         Text("Content3")
+=======
+                        Text("PBranch3")
+                        
+>>>>>>> Stashed changes
                     }
                     
                 }
