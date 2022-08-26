@@ -17,7 +17,7 @@ struct ContentView2: View {
                         Rectangle().fill(Color.gray).ignoresSafeArea()
 
                         Text("1000002")
-                        Text("d4")
+                        Text("d6")
                         
 
                     }
