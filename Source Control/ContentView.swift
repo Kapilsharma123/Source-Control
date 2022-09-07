@@ -12,21 +12,7 @@ struct ContentView: View {
         NavigationView{
                     VStack
                     {
-                        Rectangle().fill(Color.red).ignoresSafeArea()
-                        Rectangle().fill(Color.black).ignoresSafeArea()
-                        Rectangle().fill(Color.yellow).ignoresSafeArea()
-
-                        Text("DEV1")
-                        Text("DEVSept07")
-                   
-                        
-
-
-                        Rectangle().fill(Color.black).ignoresSafeArea()
-
-                        Rectangle().fill(Color.white).ignoresSafeArea()
-
-                        Text("NewPatch1")
+                        Text("OOOOOOOOOOOO")
                     }
                     
                 }
